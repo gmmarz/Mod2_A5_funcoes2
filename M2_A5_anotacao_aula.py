@@ -69,13 +69,25 @@
 # print(maior_palavra)
 #--------------------------------------------------------------------
 
-cores = ['\033[44m','azul',
-'\033[0;0m',
- '\033[42m''verde',
-'\033[0;0m',
- '\033[43m','amarelo',
-'\033[0;0m']
-print(cores)
+# #IMPRIMIR SEQUENCIA DE CORES
+# cores = ['\033[44m','azul',
+# '\033[0;0m',
+#  '\033[42m','verde',
+# '\033[0;0m',
+#  '\033[43m','amarelo',
+# '\033[0;0m']
 
+
+# # print(cores[0] + cores[1] + cores[2])
+# # print(cores[3] + cores[4] + cores[5])
+# i = 0
+# str_cor = ''
+# for cor in cores:
+#     str_cor = str_cor + cor
+#     i += 1
+#     if i == 2:
+#         print(str_cor)
+#         i=0
+#         str_cor = ''
 
 
